@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <ul>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <button id="darkToggle">🌙</button>
+    </ul>
+</nav>
+
+<section id="about">
+    <h1>About Me</h1>
+    <p>This is my portfolio website.</p>
+</section>
+
+<section id="projects">
+    <h1>Projects</h1>
+    <p>My projects will be shown here.</p>
+</section>
+
+<section id="contact">
+    <h1>Contact Me</h1>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <small class="error"></small>
+
+        <input type="email" id="email" placeholder="Your Email">
+        <small class="error"></small>
+
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <small class="error"></small>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

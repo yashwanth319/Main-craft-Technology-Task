@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+nav.scrolled {
+    background: #222;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a.active {
+    border-bottom: 2px solid yellow;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
